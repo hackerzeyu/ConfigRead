@@ -102,7 +102,7 @@ int readIntoVector(const char *fileName)
         {
             std::string sleft = ltrim(buf, '=');
             std::string sright = rtrim(buf, '=');
-            if (sleft != "" || sright != "")
+            if (sleft != "" && sright != "")
             {
                 cfg = new conf;
                 cfg->itemname = sleft;
