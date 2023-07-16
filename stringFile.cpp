@@ -1,4 +1,4 @@
-#include "stringFile.h"
+#include "stringFile.h" 
 
 std::vector<conf *> confList;
 
