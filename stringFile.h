@@ -1,7 +1,7 @@
 #ifndef __STRINGFILE_
 #define __STRINGFILE__
 #include <iostream>
-#include <vector>
+#include <vector> 
 #include <string>
 #include <fstream>
 
